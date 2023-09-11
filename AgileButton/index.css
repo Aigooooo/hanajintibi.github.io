@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0; /* Optional background color */
+}
+
+.container {
+  width: 300px;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.move-button {
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+}
+
+#yes {
+  display: none;
+}
+/* Add styles for the fullscreen image */
+.cat-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire viewport */
+}
